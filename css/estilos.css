@@ -1,0 +1,50 @@
+/*- fondo para el body del index color rgb(214, 231, 228)
+-en el encabezado  color naranja
+-en la nav sacaremos los puntos y usaremos color rgb(128, 206, 160)
+- utilizaremos una imagen jpg
+- fondo de formulario color  rgb(233, 233, 175) y letras color azul
+*/
+.inicio{
+    background-color:rgb(214, 231, 228);
+}
+.claseprueba{
+    color:orange;
+  font-family: fantasy;
+ 
+}
+.lista{ 
+    list-style: none;
+    border: 1px green solid;
+    padding:20px;
+}
+.lista1{
+   
+    color:rgb(128, 206, 160);
+    text-decoration: none;
+}
+
+.imagen{
+    width: 600px;
+    height: 600px;
+    filter: opacity(0.8);
+    
+}
+.registro{
+   background-image: url(../matero1.jpeg);
+  
+}
+.titulo{
+    padding: 8px;
+    margin: 40px;
+    color:white;
+    font-family: sans-serif;
+    
+}
+.formulario{
+    padding: 8px;
+    margin: 40px;
+    width: 100px;
+    color:white;
+    font-family: cursive;
+    font-size:small;
+}
