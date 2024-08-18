@@ -1,34 +1,58 @@
+
 /*- fondo para el body del index color rgb(214, 231, 228)
 -en el encabezado  color naranja
 -en la nav sacaremos los puntos y usaremos color rgb(128, 206, 160)
 - utilizaremos una imagen jpg
 - fondo de formulario color  rgb(233, 233, 175) y letras color azul
 */
+
+
 .inicio{
+    
     background-color:rgb(214, 231, 228);
 }
 .claseprueba{
+    padding: 20px;
     color:orange;
   font-family: fantasy;
+  text-align: center;
  
 }
+
 .lista{ 
     list-style: none;
+    text-align: center;
     border: 1px green solid;
     padding:20px;
+    background-color: rgb(238, 236, 147);
 }
-.lista1{
-   
-    color:rgb(128, 206, 160);
-    text-decoration: none;
+.lista li a{
+   color:rgb(128, 206, 160);
+   text-decoration: none;
 }
 
+.contenido{
+    padding: 20px;
+    text-align: center;
+    color: rgb(60, 192, 148);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contenidoimg{
+    padding: 20px;
+    text-align: center;
+}
 .imagen{
-    width: 600px;
-    height: 600px;
+    
+    width: 300px;
+    height: 300px;
     filter: opacity(0.8);
+
     
 }
+
+
+    
+
 .registro{
    background-image: url(../matero1.jpeg);
   
@@ -48,3 +72,29 @@
     font-family: cursive;
     font-size:small;
 }
+footer{
+    padding: 8px;
+    background-color: blanchedalmond;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
